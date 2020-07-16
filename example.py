@@ -35,7 +35,7 @@ if __name__ == "__main__":
     )
 
     log.info(f"Dashboard available at: {cluster.dashboard_link}")
-    cluster.adapt(minimum_jobs=10, maximum_jobs=30)
+    cluster.adapt(minimum=10, maximum=30)
     client = Client(cluster.scheduler_address)
 
     # Actual work
