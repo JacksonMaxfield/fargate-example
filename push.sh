@@ -1,1 +1,0 @@
-docker push jacksonmaxfield/fargate_example
